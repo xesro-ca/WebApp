@@ -1,0 +1,1 @@
+import{d as a,e as o,f as i}from"/build/_shared/chunk-3EGTKHIP.js";var t=a(i());var e=a(o()),d=!0;function u(){let[r,n]=(0,e.useState)(()=>!d);return(0,e.useEffect)(function(){d=!1,n(!0)},[]),r}function m({children:r,fallback:n=null}){return u()?(0,t.jsx)(t.Fragment,{children:r()}):(0,t.jsx)(t.Fragment,{children:n})}export{m as a};
